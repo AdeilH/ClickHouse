@@ -120,5 +120,6 @@ cmake .. \
   -D WITH_ZSTD=ON \
   -D WITH_ZLIB=ON \
   -D WITH_SNAPPY=ON \
-  -D X86_ARCH_LEVEL=3
+  -D X86_ARCH_LEVEL=3 \
+  -D ENABLE_THRIFT=ON 
 ```
